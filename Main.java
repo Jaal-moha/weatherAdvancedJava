@@ -118,7 +118,7 @@ public class Main {
 private static ArrayList<String> readFile() {
         ArrayList<String > textFile = new ArrayList<>();
         try{
-            FileInputStream fstream=new FileInputStream( "H:\\weather\\weather.txt" );
+            FileInputStream fstream=new FileInputStream( "weather.txt" );
             BufferedReader br = new BufferedReader( new InputStreamReader( fstream ) );
             String strLine;
             while ((strLine=br.readLine()) != null){
